@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin-right: 25px;
+    text-decoration: none;
+}
+nav {
+    text-align: center;
+    padding: 30px;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+    text-align: center;
+    margin: 1.5cm;
+}
+/* header */
+
+nav a {
+	color: #000;
+	font-size: 18px;
+}
+
+/* box */
+.containers {
+	display: flex;
+    flex-wrap: unset;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.center {
+	padding: 0 126px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1440px;
+}
+
+.box { 
+	background-color: #fff;
+	position: relative;
+	border: 1px solid black;
+	width: 333px;
+    height: 487px;
+    margin-top: 173px;
+}
+
+.box img {
+	padding: 11px;
+	width: 310px;
+	height: 338px;
+}
+
+.box a{
+	color: #000;
+	font-size: 16px;
+	margin-left: 26px;
+	margin-top: 5px;
+}
+
+p {
+	font-size: 14px;
+	color: #000;
+	margin-left: 26px;
+	margin-top: 18px;
+}
+
+button {
+	float: right;
+	padding: 5px 15px;
+	margin-right: 13px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin-top: 8px;
+}
+
+.contact_p {
+	margin-left: 16.5cm;
+	font-size: large;
+}
+
+.about_p {
+	margin-left: 7cm;
+	margin-right: 6cm;
+	font-size: large;
+}
